@@ -127,6 +127,7 @@ export function ContactForm() {
         }
         return(
         <FormField
+        key={input.name}
         control={form.control}
         name={input.name as never}
         render={({ field }) => (
