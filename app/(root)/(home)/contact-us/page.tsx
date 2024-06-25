@@ -8,7 +8,7 @@ export default function ContactUs() {
   return (
     <>
     
-     <div className="pt-[100px]">
+     <div className="md:pt-[100px]">
    
      </div>
 

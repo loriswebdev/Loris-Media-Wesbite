@@ -3,11 +3,8 @@ import {
     Carousel,
     CarouselContent,
     CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
   } from "@/components/ui/carousel"
 import { examples } from "@/constants"
-  import Autoplay from "embla-carousel-autoplay"
   import AutoScroll from 'embla-carousel-auto-scroll'
 import React from 'react'
 import ExampleCard from "./ExampleCard"

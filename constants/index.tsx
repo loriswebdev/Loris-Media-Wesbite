@@ -1,28 +1,37 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faHouse,
+    faBriefcase,
+    faPhone,
+    faAddressCard
+  } from "@fortawesome/free-solid-svg-icons";
+
+ 
 export const navLinks =[ 
     {
         label: 'Home',
         route: '/',
-        imgURL: '/icons/Home.svg',
+        icon: <FontAwesomeIcon icon={faHouse} />
     },
     {
         label: 'Portfolio',
         route: '/portfolio',
-        imgURL: '/icons/upcoming.svg',
+        icon:  <FontAwesomeIcon icon={faBriefcase} />,
     },
     { 
         label: 'About',
         route: '/about',
-        imgURL: '/icons/previous.svg',
+        icon:  <FontAwesomeIcon icon={faAddressCard} />,
     },
     {
         label: 'Contact Us',
         route: '/contact-us',
-        imgURL: '/icons/Video.svg',
+        icon:  <FontAwesomeIcon icon={faPhone} />,
     }
 ]
 export const homeData = {
     main:{
-        bgImgUrl: '/images/home_bg_image.jpg'
+        bgImgUrl: 'home_bg_image.jpg'
 
     }
 

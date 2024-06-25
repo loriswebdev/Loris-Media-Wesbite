@@ -52,13 +52,7 @@ const MobileNav = () => {
                           }
                         )}
                       >
-                        <Image
-                          src={item.imgURL}
-                          alt={item.label}
-                          width={20}
-                          height={20}
-                          
-                        />
+                      {item.icon}  
                         {item.label}
                       </Link>
                     </SheetClose>

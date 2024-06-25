@@ -17,7 +17,7 @@ interface ProjectCardProps {
 }
 const ProjectCard = ({className, linkUrl, title, content, handleClick, children}: ProjectCardProps) => {
   return (
-    <Card className={cn('border-none rounded-none ',className)} onClick={handleClick}> <div className="lg:w-5/12"> <CardHeader> {title && <CardTitle className="text-[3rem] -mb-2 leading-10">{title}</CardTitle>}
+    <Card className={cn('border-none rounded-none ',className)} onClick={handleClick}> <div className="lg:w-5/12"> <CardHeader> {title && <CardTitle className="text-[2rem] md:text-[3rem] -mb-2 leading-10">{title}</CardTitle>}
     {linkUrl && <a className="lg:text-[1.25rem] underline" target="_blank" href={`https://${linkUrl}` as string}>{linkUrl}</a>}
   </CardHeader>
   <CardContent>

@@ -1,5 +1,4 @@
 import axios from "axios";
-import type { NextApiRequest, NextApiResponse } from "next";
 import { NextResponse } from "next/server";
 
 
