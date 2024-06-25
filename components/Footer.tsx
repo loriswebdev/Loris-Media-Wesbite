@@ -65,13 +65,13 @@ const Footer = () => {
             </h3>
             <div className="ml-[33px] gap-5  flex justify-center w-[calc(100%-33px)] lg:[&_svg]:h-7 md:[&_svg]:h-5 [&_svg]:h-6">
               {" "}
-              <Link href="https://www.instagram.com/" target="_blank">
+              <Link href="https://www.instagram.com/loriswebdev/" target="_blank">
                 <FontAwesomeIcon icon={faInstagram} />
               </Link>
-              <Link href="https://www.facebook.com/" target="_blank">
+              <Link href="https://www.facebook.com/profile.php?id=61561484251228" target="_blank">
                 <FontAwesomeIcon icon={faFacebook} />
               </Link>
-              <Link href="https://www.linkedin.com/" target="_blank">
+              <Link href="https://www.linkedin.com/in/loris-media-63865b2a3/" target="_blank">
                 <FontAwesomeIcon icon={faLinkedin} />
               </Link>
             </div>
