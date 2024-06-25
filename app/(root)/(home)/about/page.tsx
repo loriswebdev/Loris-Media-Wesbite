@@ -1,7 +1,6 @@
 
 import ExampleCard from "@/components/ExampleCard";
 import ProjectCard from "@/components/PorjectCard";
-import { homeData } from "@/constants";
 
 
 
